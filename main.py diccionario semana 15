@@ -1,0 +1,24 @@
+#Diccionario de informacion personal - semana 15
+informacion_personal = {
+    "nombre": "Alejandra Vera",
+    "edad": 25,
+    "ciudad": "Quito",
+    "profesion": "Ingeniera"
+}
+
+#Modificacion de ciudad
+informacion_personal["ciudad"] = "Guayaquil"
+
+#Nueva clave-valor para profesión
+informacion_personal["profesion"] = "Arquitecta"
+
+#Agregar clave telefono 
+if "telefono" not in informacion_personal:
+    informacion_personal["telefono"] = "0993187244"
+
+#Eliminar clave "edad"
+del informacion_personal["edad"]
+
+#Resultado final
+print(informacion_personal)
+
